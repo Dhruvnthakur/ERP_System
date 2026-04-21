@@ -42,8 +42,8 @@ import '../models/order_model.dart';
 class DatabaseService {
   // ── Supabase credentials ────────────────────────────────────────────────────
   // Replace these with your actual project values from supabase.com/dashboard
-  static const String supabaseUrl     = 'https://skdvftikujbdfbxpxbmc.supabase.co';
-  static const String supabaseAnonKey = 'sb_publishable_ov9mdBms50I-9hfWVNCPpg_S2d6PLcW';
+  static const String supabaseUrl     = 'urls';
+  static const String supabaseAnonKey = 'key';
 
   // ── Singleton ───────────────────────────────────────────────────────────────
   static final DatabaseService _instance = DatabaseService._internal();
